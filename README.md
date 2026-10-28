@@ -21,12 +21,6 @@
 - It does not currently ingest satellite images.
 - Climate change is the motivation for exploring extreme/rapid-onset flood events; the code does not attribute an event to climate change or make future climate projections.
 
-## Run
-
-Open `Bangladesh_Flood_Exposure_Prototype.ipynb` in Google Colab and run the notebook from top to bottom. Internet access is required for API calls. Historical weather downloads are cached under `data_cache/`; outputs are written under `outputs/`.
-
-Standalone version: `flood_exposure_prototype.py`. To skip current weather and GloFAS requests, call `run(include_live_forecasts=False)`. External API availability/rate limits may vary. Test the live APIs before making claims that the output ran successfully.
-
 ## Data sources
 
 - Open-Meteo Historical Weather API: https://open-meteo.com/en/docs/historical-weather-api
